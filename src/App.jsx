@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import RailMadad from './components/RailMadad';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import './app.css'
+import './App.css'
 // import Chatbot from './components/ChatBot';
 // Import the Chatbot component
 

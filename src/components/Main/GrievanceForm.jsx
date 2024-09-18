@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import FormField from './FormField';
 import Button from './Button';
-import SidebarMenu from './SideBarMenu';
 import OTPSection from './OTPSection';
+import SidebarMenu from './SideBarMenu';
 
 const GrievanceForm = () => {
   const [formData, setFormData] = useState({

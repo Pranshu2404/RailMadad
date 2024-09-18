@@ -1,0 +1,6 @@
+.bg-custom-background {
+  background-image: url('https://railmadad.indianrailways.gov.in/madad/final/images/body-bg.jpg');
+}
+div {
+  overflow-x: hidden;
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import GrievanceForm from './Main/GrievanceForm';
-import SidebarMenu from './Main/SideBarMenu';
-import '../app.css';
+import '../App.css';
 
 const links = [
   { href: "https://www.irctc.co.in/nget/", title: "Ticket Booking", img: "booking-icon-1.png", text: "Ticket Booking" },

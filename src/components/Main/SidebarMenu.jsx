@@ -33,7 +33,7 @@ const menuItems = [
   },
 ];
 
-const SidebarMenu = ({ onSelect, selected }) => {
+const SideBarMenu = ({ onSelect, selected }) => {
   return (
     <nav className="left-0 z-0 top-[21px] md:w-[152px] w-20 bg-rose-800 text-white uppercase text-center p-2 my-10 rounded-xl">
       {menuItems.map((item, index) => (
@@ -56,4 +56,4 @@ const SidebarMenu = ({ onSelect, selected }) => {
   );
 };
 
-export default SidebarMenu;
+export default SideBarMenu;

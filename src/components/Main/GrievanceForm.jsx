@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import FormField from './FormField';
 import Button from './Button';
 import OTPSection from './OTPSection';
-import SidebarMenu from './SideBarMenu';
+import SideBarMenu from './SideBarMenu';
 
 const GrievanceForm = () => {
   const [formData, setFormData] = useState({
@@ -91,7 +91,7 @@ const GrievanceForm = () => {
 
   return (
     <div className='flex'>
-      <SidebarMenu onSelect={setSelectedMenu} selected={selectedMenu} />
+      <SideBarMenu onSelect={setSelectedMenu} selected={selectedMenu} />
       <div className="flex-1 flex justify-center py-6 md:py-10">
         <div className="w-full max-w-[740px] bg-white shadow-lg p-6 md:p-8 rounded-md">
           <h2 className="text-xl md:text-2xl font-bold text-rose-800 mb-4 md:mb-6">Grievance Detail</h2>

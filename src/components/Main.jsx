@@ -20,11 +20,11 @@ function Main() {
         <ul className="impLinks grid grid-cols-2 gap-4 md:grid-cols-4 h-auto">
           {links.map(({ href, title, img, text }, index) => (
             <li key={index}>
-              <a href={href} title={title} target="_blank" rel="noopener noreferrer" className="block text-center p-4 rounded-lg shadow-md hover:bg-gray-100 transition">
+              <a href={href} title={title} target="_blank" rel="noopener noreferrer" className="block text-center p-4 rounded-lg shadow-md text-white hover:bg-gray-100 hover:text-black transition">
                 <span className="icon">
                   <img src={`https://railmadad.indianrailways.gov.in/madad/final/images/${img}`} width="61" height="61" alt={title} className="mx-auto" />
                 </span>
-                <span className="block mt-2 text-white text-sm font-semibold">
+                <span className="block mt-2 text-sm font-semibold">
                   {text.split(' ').map((word, i) => <>{word}<br key={i} /></>)}
                 </span>
               </a>
